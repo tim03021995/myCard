@@ -4,6 +4,7 @@
   font-family:微軟正黑體;
 }
 body{
+  margin: 0;
   background-color: #222831;
   border-top:solid 20px #FFD369;
   border-bottom:solid 20px #FFD369;
