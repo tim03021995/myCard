@@ -1,0 +1,139 @@
+*{
+/*   border: solid 0.5px black; */
+  vertical-align: middle;
+  font-family:微軟正黑體;
+}
+body{
+  background-color: #222831;
+  border-top:solid 20px #FFD369;
+  border-bottom:solid 20px #FFD369;
+}
+
+.top{
+  height: 250px;
+}
+.middle{
+  height: 250px;
+}
+.bottom{
+  height: 300px;
+}
+.left,.right{
+  display: inline-block;
+  width: 50%;
+  height: 250px;
+  box-sizing: border-box;
+}
+.middle_left,.middle_right{
+  display: inline-block;
+  width: 50%;
+  height: 250px;
+  box-sizing: border-box;
+}
+.skill_cell{
+  margin-top:30px;
+  font-size:0;
+}
+.cell_left,.cell_right{
+  display: inline-block;
+  width: 50%;
+  height: 80px;
+  box-sizing: border-box;
+}
+.middle_left{
+}
+.main{
+  width:600px;height:1400px;
+  padding:50px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:30px;
+  margin-bottom:30px;
+  background-color: #393E46;
+  overflow:hidden;
+  border-radius:20px;
+  box-shadow:0px 0px 15px rgba(50,50,50,0.6);
+  color:#EEE;
+}
+.idphoto{
+  width:200px;
+  height:200px;
+  border-radius:100%;
+  position:absolute;
+  margin:40px;
+  margin-top: 10px;
+  overflow:hidden;
+}
+.right ui{
+  font-weight:100;
+} 
+img{
+  width:200px;
+}
+.name{
+  font-size:25px;
+  font-weight:700;
+}
+.name span{
+  font-size:12px;
+}
+
+.hr{
+  margin-left:10px;
+  margin-right:10px;
+}
+.middle h3{
+  font-weight:300;
+}
+.middle h4{
+  font-weight:200;
+}
+.middle p{
+  font-weight:100;
+}
+.cell_left{
+  width:15%
+}
+.cell_right{
+  width:85%
+}
+  .cell_icon{
+  width:40px;height:40px;
+  margin-left:10px;
+  padding:7px;
+  font-size:15px;
+  color:#EFEFEF;
+  text-align:centerl;
+  border-radius:20%;
+  background-color:#222831
+}
+.bar{
+  width:100;height:20px;
+  border: solid 1px;
+  border-radius:10px;
+  box-sizing:border-box;
+}
+.bar_outline{
+  width:100;
+  margin-top:20px;
+  margin-right:20px;
+  border: solid 2px black;
+  overflow: hidden
+}
+.bar.bar1{
+  width:25%;height:110%;
+  background-color:#FFD369;
+  border:none;
+  top:-1px;
+}
+.bar.bar2{
+  width:50%;height:110%;
+  background-color:#FFD369;
+  border:none;
+  top:-1px;
+}
+.subText{
+  font-size:15px;
+  margin-left:15px;
+  font-weight:100;
+}
